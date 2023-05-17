@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+    .navbar-wrapper {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(220, 220, 220);
+        display: flex;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        height: 9%;
+    }
+
+    .navbar-content-wrapper {
+        height: fit-content;
+        width: 100%;
+        margin: 0.5rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-top: 2%;
+    }
+
+    .logo-dropdown {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .camera-icon-mobile, .chat-icon-mobile {
+        display: block;
+    }
+
+    .camera-icon-mobile {
+        margin-left: 4%;
+    }
+
+    .chat-icon-mobile {
+        margin-right: 4%;
+    }
+
+    #dropDownIcon, #dropdown, #dropbtn, #dropdown-content {
+        display: none;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .menu-isons {
+        background-color: rgb(255, 255, 255);
+        border-top: 1px solid rgb(220, 220, 220);
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .Messenger-mobile, .Find-people-mobile {
+        display: none;
+    }
+
+    .icons {
+        margin: 2% 0;
+    }
+
+    .search-desktop {
+        display: block;
+    }
+
+    .right-col {
+        display: none;
+    }
+
+    .main-content {
+        background-color: #fafafa;
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        margin-bottom: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .grid-system-for-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story-section-wrapper {
+        overflow: hidden;
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        position: relative;
+        background-color: inherit;
+        border: none;
+    }
+
+    .individual-post {
+        border: 1px solid rgb(220, 220, 220);
+        border-radius: 0%;
+        margin: 3% 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
