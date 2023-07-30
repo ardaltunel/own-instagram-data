@@ -1,5 +1,5 @@
 ## Live Project: https://insta.ardaltunel.com
 
-![image](https://github.com/ardaltunel/your-own-instagram-data/assets/35379428/4eebfa47-e2a1-477e-9e6d-632ee0dd19ef)
+![image](https://github.com/ardaltunel/own-instagram-data/assets/35379428/1d831761-22d3-4d27-9bb5-6195dcf2c2c6)
 
 You can generate the token here: https://developers.facebook.com/apps/
