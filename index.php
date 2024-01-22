@@ -1,7 +1,7 @@
 <?php
 function instagramGetPost ()
 {
-    $token = "your token";
+    $token = "your-token";
     $url   = "https://graph.instagram.com/me/media?fields=thumbnail_url,media_type,media_url,username,permalink,timestamp,caption&access_token=$token";
     $curl  = curl_init ();
     curl_setopt ($curl , CURLOPT_URL , $url);
